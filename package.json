@@ -1,9 +1,10 @@
 {
   "name": "yo-collapsable",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "react collapse component with a11y.",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm run build",
     "build": "YO_DEBUG=0 webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
